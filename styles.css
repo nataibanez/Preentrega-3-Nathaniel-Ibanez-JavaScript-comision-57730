@@ -1,0 +1,77 @@
+.titlebar {
+    background: rgb(12, 84, 76);
+    background: linear-gradient(270deg, rgb(12, 84, 76) 0%, rgb(12, 84, 76) 80%, rgb(22, 117, 72) 100%);
+    border-bottom: black solid 10px;
+}
+
+.titleText{
+    padding-top: 1%;
+    font-size: 2.5rem;
+    font-weight: bold;    
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titleText:hover {
+    color:#c6c6c6;
+}
+
+.bodyText {
+    text-align: center;
+}
+
+.dataTextInput {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#submit-btn {
+    background: rgb(142, 205, 233);
+    border: black solid 3px;
+    border-radius: 12px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background: rgb(109, 161, 184);
+}
+
+.delete-btn{
+    background-color: #c51f1f; 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;     
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #891313; 
+}
+
+.buttonCentering {
+    text-align: center;
+}
+
+.card {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
